@@ -1,0 +1,20 @@
+.container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+input {
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}

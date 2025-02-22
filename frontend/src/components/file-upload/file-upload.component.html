@@ -1,0 +1,17 @@
+<!-- <p>file-upload works!</p> -->
+
+
+<div class="container">
+  <h2>File Upload</h2>
+  <input type="file" (change)="onFileSelected($event)" />
+  <table>
+    <tr>
+      <th>File Name</th>
+      <th>Actions</th>
+    </tr>
+    <tr *ngFor="let file of files">
+      <td>{{ file }}</td>
+      <td><button (click)="downloadFile(file)">Download</button></td>
+    </tr>
+  </table>
+</div>
